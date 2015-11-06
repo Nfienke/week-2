@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var arms: UIImageView!
- 
     @IBAction func switcharms(sender: UISwitch) {
         
         if sender.on{
